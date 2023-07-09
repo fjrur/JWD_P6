@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    background-color: grey;
+    padding: 15px;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+.btn-nav {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: block;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-nav:hover {
+    background-color: brown;
+    color: white;
+}
+
+main {
+    width: 400px;
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+label, input{
+    display: block;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+button{
+    padding: 5px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: white;
+    background-color: red;
+    padding: 7px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.success-message {
+    color: white;
+    background-color: darkcyan;
+    padding: 7px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
